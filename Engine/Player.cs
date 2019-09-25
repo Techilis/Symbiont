@@ -4,10 +4,8 @@ using System.Text;
 
 namespace Engine
 {
-    public class Player
+    public class Player : LivingCreature
     {
-        public int CurrentHitPoints { get; set; }
-        public int MaximumHitPoints { get; set; }
         public int Gold { get; set; }
         public int ExperiencePoints { get; set; }
         public int Level { get; set; }
